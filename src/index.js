@@ -1,4 +1,3 @@
-let usedConfig = [];
 module.exports = function check(str, bracketsConfig) {
   return checkAll(str, bracketsConfig).length === 0;
 };
